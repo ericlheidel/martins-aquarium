@@ -1,0 +1,60 @@
+html {
+    margin: 0, auto;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Lato', sans-serif;
+    background-color: antiquewhite;
+}
+
+.nav-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style-type: none;
+    font-weight: bold;
+    font-size: 38px;
+    border-bottom: 2px solid black;
+
+}
+
+h1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 68px;
+}
+
+.fish-section {
+    margin: 0, auto;
+}
+
+.fish-entry {
+    /* border: 5px solid red; */
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    /* justify-content: center; */
+    width: 75%;
+    /* text-align: center; */
+    margin-bottom: 20px;
+}
+
+.fish__image {
+    height: 200px;
+    border-radius: 20px;
+}
+
+aside {
+    float: right;
+    width: 20%;
+}
+
+.locations-div,
+.travel-tips-div,
+.tip-card {
+    border: 2px solid brown;
+    width: 200px;
+    margin-bottom: 5px;
+}
+
+.locations-title,
+.travel-tips-title {
+    margin-left: 20px;
+}
