@@ -43,3 +43,9 @@ tipsSection.innerHTML = TipsList()
 const locationsSetcion = document.querySelector(".locations-section")
 
 locationsSetcion.innerHTML = LocationsList()
+
+
+
+console.log(holyFishOfThree())
+console.log(holyFishOfFive())
+console.log(nonHolyFish())
